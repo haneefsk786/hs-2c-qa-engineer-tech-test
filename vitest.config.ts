@@ -13,9 +13,13 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
     globals: true,
-    setupFiles: ['./src/test/setup.ts'],
+    setupFiles: ['./src/test/setup.ts', 'allure-vitest/setup'],
     include: ['src/**/*.test.ts', 'src/**/*.test.tsx'],
     exclude: ['node_modules', 'dist'],
+    reporters: [
+      'default',
+      ['allure-vitest/reporter', { resultsDir: 'allure-results-unit' }],
+    ],
     coverage: {
       provider: 'v8',
       reporter: ['text', 'json', 'html'],

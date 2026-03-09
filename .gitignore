@@ -45,4 +45,6 @@ node_modules/
 
 # Allure
 /allure-results/
+/allure-results-unit/
 /allure-report/
+/allure-report-unit/
