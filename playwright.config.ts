@@ -19,10 +19,11 @@ export default defineConfig({
   /* Opt out of parallel tests on CI */
   workers: process.env.CI ? 1 : undefined,
   
-  /* Reporter configuration - HTML report for viewing, JSON for CI/CD integration */
+  /* Reporter configuration - Multiple reporters for comprehensive coverage */
   reporter: [
     ['html', { open: 'never', outputFolder: 'playwright-report' }],
     ['json', { outputFile: 'playwright-report/results.json' }],
+    ['allure-playwright', { outputFolder: 'allure-results' }],
     ['list'],
   ],
   

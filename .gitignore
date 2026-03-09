@@ -42,3 +42,7 @@ next-env.d.ts
 node_modules/
 /blob-report/
 /playwright/.auth/
+
+# Allure
+/allure-results/
+/allure-report/
