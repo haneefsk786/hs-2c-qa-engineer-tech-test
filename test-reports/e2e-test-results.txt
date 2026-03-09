@@ -1,0 +1,1950 @@
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> qa-engineer-tech-test@0.1.0 test:e2e:chromium
+> playwright test --project=chromium
+
+[WebServer] npm warn Unknown env config "devdir". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+Running 205 tests using 1 worker
+
+(node:95169) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95169) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    1 [chromium] › tests/accessibility.spec.ts:16:9 › Accessibility - Home Page › Semantic HTML › should have exactly one h1 heading (0ms)
+(node:95189) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95189) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    2 [chromium] › tests/accessibility.spec.ts:16:9 › Accessibility - Home Page › Semantic HTML › should have exactly one h1 heading (retry #1) (0ms)
+(node:95205) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95205) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    3 [chromium] › tests/accessibility.spec.ts:16:9 › Accessibility - Home Page › Semantic HTML › should have exactly one h1 heading (retry #2) (0ms)
+(node:95292) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95292) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    4 [chromium] › tests/accessibility.spec.ts:21:9 › Accessibility - Home Page › Semantic HTML › should have a main landmark or content area (0ms)
+(node:95314) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95314) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    5 [chromium] › tests/accessibility.spec.ts:21:9 › Accessibility - Home Page › Semantic HTML › should have a main landmark or content area (retry #1) (0ms)
+(node:95332) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95332) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    6 [chromium] › tests/accessibility.spec.ts:21:9 › Accessibility - Home Page › Semantic HTML › should have a main landmark or content area (retry #2) (0ms)
+(node:95340) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95340) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    7 [chromium] › tests/accessibility.spec.ts:26:9 › Accessibility - Home Page › Semantic HTML › should use semantic list structure for book cards (0ms)
+(node:95353) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95353) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    8 [chromium] › tests/accessibility.spec.ts:26:9 › Accessibility - Home Page › Semantic HTML › should use semantic list structure for book cards (retry #1) (0ms)
+(node:95366) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95366) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    9 [chromium] › tests/accessibility.spec.ts:26:9 › Accessibility - Home Page › Semantic HTML › should use semantic list structure for book cards (retry #2) (0ms)
+(node:95382) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95382) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   10 [chromium] › tests/accessibility.spec.ts:33:9 › Accessibility - Home Page › Keyboard Navigation › should allow tabbing through all interactive elements (0ms)
+(node:95397) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95397) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   11 [chromium] › tests/accessibility.spec.ts:33:9 › Accessibility - Home Page › Keyboard Navigation › should allow tabbing through all interactive elements (retry #1) (0ms)
+(node:95410) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95410) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   12 [chromium] › tests/accessibility.spec.ts:33:9 › Accessibility - Home Page › Keyboard Navigation › should allow tabbing through all interactive elements (retry #2) (1ms)
+(node:95419) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95419) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   13 [chromium] › tests/accessibility.spec.ts:46:9 › Accessibility - Home Page › Keyboard Navigation › should allow activating links with Enter key (0ms)
+(node:95438) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95438) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   14 [chromium] › tests/accessibility.spec.ts:46:9 › Accessibility - Home Page › Keyboard Navigation › should allow activating links with Enter key (retry #1) (0ms)
+(node:95452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   15 [chromium] › tests/accessibility.spec.ts:46:9 › Accessibility - Home Page › Keyboard Navigation › should allow activating links with Enter key (retry #2) (1ms)
+(node:95465) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95465) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   16 [chromium] › tests/accessibility.spec.ts:52:9 › Accessibility - Home Page › Keyboard Navigation › should have visible focus indicators (0ms)
+(node:95477) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95477) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   17 [chromium] › tests/accessibility.spec.ts:52:9 › Accessibility - Home Page › Keyboard Navigation › should have visible focus indicators (retry #1) (0ms)
+(node:95485) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95485) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   18 [chromium] › tests/accessibility.spec.ts:52:9 › Accessibility - Home Page › Keyboard Navigation › should have visible focus indicators (retry #2) (0ms)
+(node:95503) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95503) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   19 [chromium] › tests/accessibility.spec.ts:60:9 › Accessibility - Home Page › Text and Color › should have readable text content (0ms)
+(node:95519) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95519) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   20 [chromium] › tests/accessibility.spec.ts:60:9 › Accessibility - Home Page › Text and Color › should have readable text content (retry #1) (0ms)
+(node:95538) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95538) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   21 [chromium] › tests/accessibility.spec.ts:60:9 › Accessibility - Home Page › Text and Color › should have readable text content (retry #2) (0ms)
+(node:95551) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95551) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   22 [chromium] › tests/accessibility.spec.ts:66:9 › Accessibility - Home Page › Text and Color › should display book information clearly (0ms)
+(node:95558) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95558) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   23 [chromium] › tests/accessibility.spec.ts:66:9 › Accessibility - Home Page › Text and Color › should display book information clearly (retry #1) (0ms)
+(node:95573) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95573) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   24 [chromium] › tests/accessibility.spec.ts:66:9 › Accessibility - Home Page › Text and Color › should display book information clearly (retry #2) (0ms)
+(node:95587) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95587) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   25 [chromium] › tests/accessibility.spec.ts:73:9 › Accessibility - Home Page › Links › should have descriptive link text for Add New Book (0ms)
+(node:95597) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95597) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   26 [chromium] › tests/accessibility.spec.ts:73:9 › Accessibility - Home Page › Links › should have descriptive link text for Add New Book (retry #1) (0ms)
+(node:95613) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95613) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   27 [chromium] › tests/accessibility.spec.ts:73:9 › Accessibility - Home Page › Links › should have descriptive link text for Add New Book (retry #2) (0ms)
+(node:95625) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95625) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   28 [chromium] › tests/accessibility.spec.ts:78:9 › Accessibility - Home Page › Links › should have accessible book card links (0ms)
+(node:95638) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95638) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   29 [chromium] › tests/accessibility.spec.ts:78:9 › Accessibility - Home Page › Links › should have accessible book card links (retry #1) (0ms)
+(node:95646) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95646) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   30 [chromium] › tests/accessibility.spec.ts:78:9 › Accessibility - Home Page › Links › should have accessible book card links (retry #2) (0ms)
+(node:95663) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95663) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   31 [chromium] › tests/accessibility.spec.ts:98:9 › Accessibility - Book Detail Page › Semantic HTML › should have exactly one h1 heading with book title (0ms)
+(node:95676) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95676) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   32 [chromium] › tests/accessibility.spec.ts:98:9 › Accessibility - Book Detail Page › Semantic HTML › should have exactly one h1 heading with book title (retry #1) (0ms)
+(node:95688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   33 [chromium] › tests/accessibility.spec.ts:98:9 › Accessibility - Book Detail Page › Semantic HTML › should have exactly one h1 heading with book title (retry #2) (0ms)
+(node:95702) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95702) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   34 [chromium] › tests/accessibility.spec.ts:104:9 › Accessibility - Book Detail Page › Semantic HTML › should use heading hierarchy for sections (0ms)
+(node:95710) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95710) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   35 [chromium] › tests/accessibility.spec.ts:104:9 › Accessibility - Book Detail Page › Semantic HTML › should use heading hierarchy for sections (retry #1) (0ms)
+(node:95721) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95721) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   36 [chromium] › tests/accessibility.spec.ts:104:9 › Accessibility - Book Detail Page › Semantic HTML › should use heading hierarchy for sections (retry #2) (0ms)
+(node:95729) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95729) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   37 [chromium] › tests/accessibility.spec.ts:112:9 › Accessibility - Book Detail Page › Navigation › should have accessible back navigation (0ms)
+(node:95749) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95749) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   38 [chromium] › tests/accessibility.spec.ts:112:9 › Accessibility - Book Detail Page › Navigation › should have accessible back navigation (retry #1) (0ms)
+(node:95764) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95764) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   39 [chromium] › tests/accessibility.spec.ts:112:9 › Accessibility - Book Detail Page › Navigation › should have accessible back navigation (retry #2) (0ms)
+(node:95771) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95771) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   40 [chromium] › tests/accessibility.spec.ts:118:9 › Accessibility - Book Detail Page › Navigation › should allow keyboard navigation to back link (0ms)
+(node:95784) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95784) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   41 [chromium] › tests/accessibility.spec.ts:118:9 › Accessibility - Book Detail Page › Navigation › should allow keyboard navigation to back link (retry #1) (0ms)
+(node:95793) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95793) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   42 [chromium] › tests/accessibility.spec.ts:118:9 › Accessibility - Book Detail Page › Navigation › should allow keyboard navigation to back link (retry #2) (0ms)
+(node:95804) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95804) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   43 [chromium] › tests/accessibility.spec.ts:126:9 › Accessibility - Book Detail Page › Content Structure › should have labeled sections for book information (0ms)
+(node:95825) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95825) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   44 [chromium] › tests/accessibility.spec.ts:126:9 › Accessibility - Book Detail Page › Content Structure › should have labeled sections for book information (retry #1) (0ms)
+(node:95834) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95834) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   45 [chromium] › tests/accessibility.spec.ts:126:9 › Accessibility - Book Detail Page › Content Structure › should have labeled sections for book information (retry #2) (0ms)
+(node:95843) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95843) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   46 [chromium] › tests/accessibility.spec.ts:134:9 › Accessibility - Book Detail Page › Content Structure › should display rating in accessible format (0ms)
+(node:95854) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95854) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   47 [chromium] › tests/accessibility.spec.ts:134:9 › Accessibility - Book Detail Page › Content Structure › should display rating in accessible format (retry #1) (0ms)
+(node:95868) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95868) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   48 [chromium] › tests/accessibility.spec.ts:134:9 › Accessibility - Book Detail Page › Content Structure › should display rating in accessible format (retry #2) (0ms)
+(node:95882) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95882) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   49 [chromium] › tests/accessibility.spec.ts:146:9 › Accessibility - Add Book Form › Form Labels › should have associated labels for all form inputs (0ms)
+(node:95898) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95898) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   50 [chromium] › tests/accessibility.spec.ts:146:9 › Accessibility - Add Book Form › Form Labels › should have associated labels for all form inputs (retry #1) (0ms)
+(node:95911) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95911) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   51 [chromium] › tests/accessibility.spec.ts:146:9 › Accessibility - Add Book Form › Form Labels › should have associated labels for all form inputs (retry #2) (0ms)
+(node:95920) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95920) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   52 [chromium] › tests/accessibility.spec.ts:157:9 › Accessibility - Add Book Form › Form Labels › should indicate required fields clearly (0ms)
+(node:95931) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95931) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   53 [chromium] › tests/accessibility.spec.ts:157:9 › Accessibility - Add Book Form › Form Labels › should indicate required fields clearly (retry #1) (1ms)
+(node:95950) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95950) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   54 [chromium] › tests/accessibility.spec.ts:157:9 › Accessibility - Add Book Form › Form Labels › should indicate required fields clearly (retry #2) (0ms)
+(node:95965) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95965) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   55 [chromium] › tests/accessibility.spec.ts:164:9 › Accessibility - Add Book Form › Form Navigation › should allow tabbing through form fields in logical order (0ms)
+(node:95976) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95976) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   56 [chromium] › tests/accessibility.spec.ts:164:9 › Accessibility - Add Book Form › Form Navigation › should allow tabbing through form fields in logical order (retry #1) (0ms)
+(node:95990) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:95990) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   57 [chromium] › tests/accessibility.spec.ts:164:9 › Accessibility - Add Book Form › Form Navigation › should allow tabbing through form fields in logical order (retry #2) (0ms)
+(node:96011) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96011) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   58 [chromium] › tests/accessibility.spec.ts:176:9 › Accessibility - Add Book Form › Form Navigation › should allow form submission with Enter key (0ms)
+(node:96029) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96029) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   59 [chromium] › tests/accessibility.spec.ts:176:9 › Accessibility - Add Book Form › Form Navigation › should allow form submission with Enter key (retry #1) (0ms)
+(node:96043) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96043) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   60 [chromium] › tests/accessibility.spec.ts:176:9 › Accessibility - Add Book Form › Form Navigation › should allow form submission with Enter key (retry #2) (0ms)
+(node:96052) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96052) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   61 [chromium] › tests/accessibility.spec.ts:189:9 › Accessibility - Add Book Form › Error Messages › should display error messages accessibly (0ms)
+(node:96063) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96063) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   62 [chromium] › tests/accessibility.spec.ts:189:9 › Accessibility - Add Book Form › Error Messages › should display error messages accessibly (retry #1) (0ms)
+(node:96085) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96085) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   63 [chromium] › tests/accessibility.spec.ts:189:9 › Accessibility - Add Book Form › Error Messages › should display error messages accessibly (retry #2) (0ms)
+(node:96095) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96095) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   64 [chromium] › tests/accessibility.spec.ts:214:9 › Accessibility - Add Book Form › Input Constraints › should have appropriate input types (0ms)
+(node:96104) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96104) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   65 [chromium] › tests/accessibility.spec.ts:214:9 › Accessibility - Add Book Form › Input Constraints › should have appropriate input types (retry #1) (0ms)
+(node:96119) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96119) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   66 [chromium] › tests/accessibility.spec.ts:214:9 › Accessibility - Add Book Form › Input Constraints › should have appropriate input types (retry #2) (0ms)
+(node:96134) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96134) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   67 [chromium] › tests/accessibility.spec.ts:225:9 › Accessibility - Add Book Form › Input Constraints › should have min/max constraints on numeric inputs (0ms)
+(node:96145) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96145) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   68 [chromium] › tests/accessibility.spec.ts:225:9 › Accessibility - Add Book Form › Input Constraints › should have min/max constraints on numeric inputs (retry #1) (0ms)
+(node:96160) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96160) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   69 [chromium] › tests/accessibility.spec.ts:225:9 › Accessibility - Add Book Form › Input Constraints › should have min/max constraints on numeric inputs (retry #2) (0ms)
+(node:96172) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96172) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   70 [chromium] › tests/accessibility.spec.ts:234:7 › Accessibility - Error Pages › should have accessible error page for 404 (0ms)
+(node:96184) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96184) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   71 [chromium] › tests/accessibility.spec.ts:234:7 › Accessibility - Error Pages › should have accessible error page for 404 (retry #1) (0ms)
+(node:96197) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96197) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   72 [chromium] › tests/accessibility.spec.ts:234:7 › Accessibility - Error Pages › should have accessible error page for 404 (retry #2) (0ms)
+(node:96208) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96208) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   73 [chromium] › tests/accessibility.spec.ts:247:7 › Accessibility - Error Pages › should have accessible error state on home page (0ms)
+(node:96223) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96223) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   74 [chromium] › tests/accessibility.spec.ts:247:7 › Accessibility - Error Pages › should have accessible error state on home page (retry #1) (0ms)
+(node:96233) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96233) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   75 [chromium] › tests/accessibility.spec.ts:247:7 › Accessibility - Error Pages › should have accessible error state on home page (retry #2) (0ms)
+(node:96243) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96243) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   76 [chromium] › tests/accessibility.spec.ts:260:7 › Accessibility - Interactive Elements › buttons should have accessible names (0ms)
+(node:96265) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96265) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   77 [chromium] › tests/accessibility.spec.ts:260:7 › Accessibility - Interactive Elements › buttons should have accessible names (retry #1) (0ms)
+(node:96276) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96276) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   78 [chromium] › tests/accessibility.spec.ts:260:7 › Accessibility - Interactive Elements › buttons should have accessible names (retry #2) (0ms)
+(node:96290) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96290) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   79 [chromium] › tests/accessibility.spec.ts:270:7 › Accessibility - Interactive Elements › links should have clear purpose (0ms)
+(node:96304) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96304) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   80 [chromium] › tests/accessibility.spec.ts:270:7 › Accessibility - Interactive Elements › links should have clear purpose (retry #1) (0ms)
+(node:96322) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96322) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   81 [chromium] › tests/accessibility.spec.ts:270:7 › Accessibility - Interactive Elements › links should have clear purpose (retry #2) (0ms)
+(node:96330) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96330) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   82 [chromium] › tests/accessibility.spec.ts:285:7 › Accessibility - Loading States › should indicate loading state accessibly on home page (0ms)
+(node:96351) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96351) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   83 [chromium] › tests/accessibility.spec.ts:285:7 › Accessibility - Loading States › should indicate loading state accessibly on home page (retry #1) (0ms)
+(node:96359) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96359) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   84 [chromium] › tests/accessibility.spec.ts:285:7 › Accessibility - Loading States › should indicate loading state accessibly on home page (retry #2) (0ms)
+(node:96369) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96369) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   85 [chromium] › tests/accessibility.spec.ts:293:7 › Accessibility - Loading States › should indicate loading state accessibly on book detail page (0ms)
+(node:96382) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96382) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   86 [chromium] › tests/accessibility.spec.ts:293:7 › Accessibility - Loading States › should indicate loading state accessibly on book detail page (retry #1) (2ms)
+(node:96396) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96396) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   87 [chromium] › tests/accessibility.spec.ts:293:7 › Accessibility - Loading States › should indicate loading state accessibly on book detail page (retry #2) (0ms)
+(node:96406) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96406) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   88 [chromium] › tests/accessibility.spec.ts:300:7 › Accessibility - Loading States › should indicate loading state during form submission (0ms)
+(node:96422) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96422) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   89 [chromium] › tests/accessibility.spec.ts:300:7 › Accessibility - Loading States › should indicate loading state during form submission (retry #1) (0ms)
+(node:96442) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96442) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   90 [chromium] › tests/accessibility.spec.ts:300:7 › Accessibility - Loading States › should indicate loading state during form submission (retry #2) (0ms)
+(node:96452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   91 [chromium] › tests/add-book.spec.ts:9:9 › Add Book Page › Page Layout › should display page title (0ms)
+(node:96460) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96460) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   92 [chromium] › tests/add-book.spec.ts:9:9 › Add Book Page › Page Layout › should display page title (retry #1) (0ms)
+(node:96469) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96469) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   93 [chromium] › tests/add-book.spec.ts:9:9 › Add Book Page › Page Layout › should display page title (retry #2) (0ms)
+(node:96488) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96488) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   94 [chromium] › tests/add-book.spec.ts:13:9 › Add Book Page › Page Layout › should display back to library link (0ms)
+(node:96503) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96503) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   95 [chromium] › tests/add-book.spec.ts:13:9 › Add Book Page › Page Layout › should display back to library link (retry #1) (0ms)
+(node:96512) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96512) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   96 [chromium] › tests/add-book.spec.ts:13:9 › Add Book Page › Page Layout › should display back to library link (retry #2) (0ms)
+(node:96528) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96528) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   97 [chromium] › tests/add-book.spec.ts:17:9 › Add Book Page › Page Layout › should navigate back to home when clicking back link (0ms)
+(node:96539) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96539) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   98 [chromium] › tests/add-book.spec.ts:17:9 › Add Book Page › Page Layout › should navigate back to home when clicking back link (retry #1) (0ms)
+(node:96553) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96553) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   99 [chromium] › tests/add-book.spec.ts:17:9 › Add Book Page › Page Layout › should navigate back to home when clicking back link (retry #2) (0ms)
+(node:96566) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96566) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  100 [chromium] › tests/add-book.spec.ts:24:9 › Add Book Page › Form Fields › should display title input field with label (1ms)
+(node:96585) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96585) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  101 [chromium] › tests/add-book.spec.ts:24:9 › Add Book Page › Form Fields › should display title input field with label (retry #1) (0ms)
+(node:96597) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96597) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  102 [chromium] › tests/add-book.spec.ts:24:9 › Add Book Page › Form Fields › should display title input field with label (retry #2) (0ms)
+(node:96605) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96605) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  103 [chromium] › tests/add-book.spec.ts:29:9 › Add Book Page › Form Fields › should display author input field with label (0ms)
+(node:96612) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96612) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  104 [chromium] › tests/add-book.spec.ts:29:9 › Add Book Page › Form Fields › should display author input field with label (retry #1) (0ms)
+(node:96629) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96629) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  105 [chromium] › tests/add-book.spec.ts:29:9 › Add Book Page › Form Fields › should display author input field with label (retry #2) (0ms)
+(node:96644) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96644) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  106 [chromium] › tests/add-book.spec.ts:34:9 › Add Book Page › Form Fields › should display genre dropdown (0ms)
+(node:96655) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96655) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  107 [chromium] › tests/add-book.spec.ts:34:9 › Add Book Page › Form Fields › should display genre dropdown (retry #1) (0ms)
+(node:96667) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96667) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  108 [chromium] › tests/add-book.spec.ts:34:9 › Add Book Page › Form Fields › should display genre dropdown (retry #2) (0ms)
+(node:96679) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96679) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  109 [chromium] › tests/add-book.spec.ts:39:9 › Add Book Page › Form Fields › should display published year input (0ms)
+(node:96691) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96691) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  110 [chromium] › tests/add-book.spec.ts:39:9 › Add Book Page › Form Fields › should display published year input (retry #1) (0ms)
+(node:96704) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96704) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  111 [chromium] › tests/add-book.spec.ts:39:9 › Add Book Page › Form Fields › should display published year input (retry #2) (0ms)
+(node:96717) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96717) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  112 [chromium] › tests/add-book.spec.ts:43:9 › Add Book Page › Form Fields › should display pages input (0ms)
+(node:96729) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96729) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  113 [chromium] › tests/add-book.spec.ts:43:9 › Add Book Page › Form Fields › should display pages input (retry #1) (0ms)
+(node:96744) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96744) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  114 [chromium] › tests/add-book.spec.ts:43:9 › Add Book Page › Form Fields › should display pages input (retry #2) (0ms)
+(node:96759) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96759) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  115 [chromium] › tests/add-book.spec.ts:47:9 › Add Book Page › Form Fields › should display ISBN input (0ms)
+(node:96769) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96769) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  116 [chromium] › tests/add-book.spec.ts:47:9 › Add Book Page › Form Fields › should display ISBN input (retry #1) (0ms)
+(node:96777) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96777) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  117 [chromium] › tests/add-book.spec.ts:47:9 › Add Book Page › Form Fields › should display ISBN input (retry #2) (0ms)
+(node:96791) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96791) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  118 [chromium] › tests/add-book.spec.ts:52:9 › Add Book Page › Form Fields › should display rating input (0ms)
+(node:96805) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96805) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  119 [chromium] › tests/add-book.spec.ts:52:9 › Add Book Page › Form Fields › should display rating input (retry #1) (0ms)
+(node:96820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  120 [chromium] › tests/add-book.spec.ts:52:9 › Add Book Page › Form Fields › should display rating input (retry #2) (0ms)
+(node:96832) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96832) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  121 [chromium] › tests/add-book.spec.ts:56:9 › Add Book Page › Form Fields › should display description textarea (0ms)
+(node:96845) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96845) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  122 [chromium] › tests/add-book.spec.ts:56:9 › Add Book Page › Form Fields › should display description textarea (retry #1) (0ms)
+(node:96857) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96857) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  123 [chromium] › tests/add-book.spec.ts:56:9 › Add Book Page › Form Fields › should display description textarea (retry #2) (1ms)
+(node:96877) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96877) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  124 [chromium] › tests/add-book.spec.ts:61:9 › Add Book Page › Form Fields › should display submit and cancel buttons (0ms)
+(node:96893) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96893) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  125 [chromium] › tests/add-book.spec.ts:61:9 › Add Book Page › Form Fields › should display submit and cancel buttons (retry #1) (2ms)
+(node:96907) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96907) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  126 [chromium] › tests/add-book.spec.ts:61:9 › Add Book Page › Form Fields › should display submit and cancel buttons (retry #2) (0ms)
+(node:96923) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96923) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  127 [chromium] › tests/add-book.spec.ts:68:9 › Add Book Page › Genre Dropdown Options › should contain all genre options (0ms)
+(node:96933) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96933) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  128 [chromium] › tests/add-book.spec.ts:68:9 › Add Book Page › Genre Dropdown Options › should contain all genre options (retry #1) (0ms)
+(node:96946) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96946) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  129 [chromium] › tests/add-book.spec.ts:68:9 › Add Book Page › Genre Dropdown Options › should contain all genre options (retry #2) (0ms)
+(node:96957) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96957) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  130 [chromium] › tests/add-book.spec.ts:85:9 › Add Book Page › Form Validation - Required Fields › should require title field (0ms)
+(node:96973) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96973) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  131 [chromium] › tests/add-book.spec.ts:85:9 › Add Book Page › Form Validation - Required Fields › should require title field (retry #1) (0ms)
+(node:96985) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96985) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  132 [chromium] › tests/add-book.spec.ts:85:9 › Add Book Page › Form Validation - Required Fields › should require title field (retry #2) (0ms)
+(node:96997) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:96997) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  133 [chromium] › tests/add-book.spec.ts:90:9 › Add Book Page › Form Validation - Required Fields › should require author field (0ms)
+(node:97010) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97010) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  134 [chromium] › tests/add-book.spec.ts:90:9 › Add Book Page › Form Validation - Required Fields › should require author field (retry #1) (0ms)
+(node:97027) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97027) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  135 [chromium] › tests/add-book.spec.ts:90:9 › Add Book Page › Form Validation - Required Fields › should require author field (retry #2) (0ms)
+(node:97040) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97040) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  136 [chromium] › tests/add-book.spec.ts:95:9 › Add Book Page › Form Validation - Required Fields › should not submit form with empty required fields (0ms)
+(node:97049) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97049) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  137 [chromium] › tests/add-book.spec.ts:95:9 › Add Book Page › Form Validation - Required Fields › should not submit form with empty required fields (retry #1) (0ms)
+(node:97062) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97062) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  138 [chromium] › tests/add-book.spec.ts:95:9 › Add Book Page › Form Validation - Required Fields › should not submit form with empty required fields (retry #2) (0ms)
+(node:97080) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97080) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  139 [chromium] › tests/add-book.spec.ts:100:9 › Add Book Page › Form Validation - Required Fields › should not submit when only title is filled (0ms)
+(node:97091) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97091) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  140 [chromium] › tests/add-book.spec.ts:100:9 › Add Book Page › Form Validation - Required Fields › should not submit when only title is filled (retry #1) (0ms)
+(node:97108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  141 [chromium] › tests/add-book.spec.ts:100:9 › Add Book Page › Form Validation - Required Fields › should not submit when only title is filled (retry #2) (0ms)
+(node:97122) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97122) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  142 [chromium] › tests/add-book.spec.ts:106:9 › Add Book Page › Form Validation - Required Fields › should not submit when only author is filled (0ms)
+(node:97133) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97133) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  143 [chromium] › tests/add-book.spec.ts:106:9 › Add Book Page › Form Validation - Required Fields › should not submit when only author is filled (retry #1) (0ms)
+(node:97142) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97142) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  144 [chromium] › tests/add-book.spec.ts:106:9 › Add Book Page › Form Validation - Required Fields › should not submit when only author is filled (retry #2) (0ms)
+(node:97157) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97157) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  145 [chromium] › tests/add-book.spec.ts:114:9 › Add Book Page › Form Input Behavior › should accept text input in title field (0ms)
+(node:97166) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97166) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  146 [chromium] › tests/add-book.spec.ts:114:9 › Add Book Page › Form Input Behavior › should accept text input in title field (retry #1) (0ms)
+(node:97184) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97184) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  147 [chromium] › tests/add-book.spec.ts:114:9 › Add Book Page › Form Input Behavior › should accept text input in title field (retry #2) (0ms)
+(node:97199) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97199) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  148 [chromium] › tests/add-book.spec.ts:120:9 › Add Book Page › Form Input Behavior › should accept text input in author field (0ms)
+(node:97215) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97215) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  149 [chromium] › tests/add-book.spec.ts:120:9 › Add Book Page › Form Input Behavior › should accept text input in author field (retry #1) (1ms)
+(node:97223) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97223) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  150 [chromium] › tests/add-book.spec.ts:120:9 › Add Book Page › Form Input Behavior › should accept text input in author field (retry #2) (0ms)
+(node:97234) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97234) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  151 [chromium] › tests/add-book.spec.ts:126:9 › Add Book Page › Form Input Behavior › should allow selecting genre from dropdown (0ms)
+(node:97248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  152 [chromium] › tests/add-book.spec.ts:126:9 › Add Book Page › Form Input Behavior › should allow selecting genre from dropdown (retry #1) (0ms)
+(node:97265) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97265) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  153 [chromium] › tests/add-book.spec.ts:126:9 › Add Book Page › Form Input Behavior › should allow selecting genre from dropdown (retry #2) (0ms)
+(node:97283) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97283) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  154 [chromium] › tests/add-book.spec.ts:132:9 › Add Book Page › Form Input Behavior › should accept numeric input in pages field (0ms)
+(node:97304) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97304) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  155 [chromium] › tests/add-book.spec.ts:132:9 › Add Book Page › Form Input Behavior › should accept numeric input in pages field (retry #1) (0ms)
+(node:97315) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97315) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  156 [chromium] › tests/add-book.spec.ts:132:9 › Add Book Page › Form Input Behavior › should accept numeric input in pages field (retry #2) (0ms)
+(node:97324) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97324) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  157 [chromium] › tests/add-book.spec.ts:138:9 › Add Book Page › Form Input Behavior › should accept numeric input with decimals in rating field (0ms)
+(node:97343) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97343) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  158 [chromium] › tests/add-book.spec.ts:138:9 › Add Book Page › Form Input Behavior › should accept numeric input with decimals in rating field (retry #1) (0ms)
+(node:97362) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97362) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  159 [chromium] › tests/add-book.spec.ts:138:9 › Add Book Page › Form Input Behavior › should accept numeric input with decimals in rating field (retry #2) (0ms)
+(node:97374) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97374) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  160 [chromium] › tests/add-book.spec.ts:144:9 › Add Book Page › Form Input Behavior › should accept text in description textarea (0ms)
+(node:97388) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97388) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  161 [chromium] › tests/add-book.spec.ts:144:9 › Add Book Page › Form Input Behavior › should accept text in description textarea (retry #1) (0ms)
+(node:97402) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97402) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  162 [chromium] › tests/add-book.spec.ts:144:9 › Add Book Page › Form Input Behavior › should accept text in description textarea (retry #2) (1ms)
+(node:97413) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97413) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  163 [chromium] › tests/add-book.spec.ts:150:9 › Add Book Page › Form Input Behavior › should have min/max constraints on published year (0ms)
+(node:97428) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97428) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  164 [chromium] › tests/add-book.spec.ts:150:9 › Add Book Page › Form Input Behavior › should have min/max constraints on published year (retry #1) (0ms)
+(node:97440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  165 [chromium] › tests/add-book.spec.ts:150:9 › Add Book Page › Form Input Behavior › should have min/max constraints on published year (retry #2) (0ms)
+(node:97450) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97450) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  166 [chromium] › tests/add-book.spec.ts:155:9 › Add Book Page › Form Input Behavior › should have min/max constraints on rating (0ms)
+(node:97464) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97464) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  167 [chromium] › tests/add-book.spec.ts:155:9 › Add Book Page › Form Input Behavior › should have min/max constraints on rating (retry #1) (0ms)
+(node:97474) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97474) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  168 [chromium] › tests/add-book.spec.ts:155:9 › Add Book Page › Form Input Behavior › should have min/max constraints on rating (retry #2) (0ms)
+(node:97491) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97491) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  169 [chromium] › tests/add-book.spec.ts:161:9 › Add Book Page › Form Input Behavior › should have min constraint on pages (0ms)
+(node:97508) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97508) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  170 [chromium] › tests/add-book.spec.ts:161:9 › Add Book Page › Form Input Behavior › should have min constraint on pages (retry #1) (0ms)
+(node:97524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  171 [chromium] › tests/add-book.spec.ts:161:9 › Add Book Page › Form Input Behavior › should have min constraint on pages (retry #2) (0ms)
+(node:97533) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97533) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  172 [chromium] › tests/add-book.spec.ts:168:9 › Add Book Page › Successful Form Submission › should submit form with required fields only (0ms)
+(node:97543) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97543) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  173 [chromium] › tests/add-book.spec.ts:168:9 › Add Book Page › Successful Form Submission › should submit form with required fields only (retry #1) (0ms)
+(node:97558) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97558) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  174 [chromium] › tests/add-book.spec.ts:168:9 › Add Book Page › Successful Form Submission › should submit form with required fields only (retry #2) (0ms)
+(node:97571) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97571) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  175 [chromium] › tests/add-book.spec.ts:178:9 › Add Book Page › Successful Form Submission › should submit form with all fields filled (0ms)
+(node:97590) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97590) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  176 [chromium] › tests/add-book.spec.ts:178:9 › Add Book Page › Successful Form Submission › should submit form with all fields filled (retry #1) (0ms)
+(node:97603) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97603) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  177 [chromium] › tests/add-book.spec.ts:178:9 › Add Book Page › Successful Form Submission › should submit form with all fields filled (retry #2) (0ms)
+(node:97611) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97611) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  178 [chromium] › tests/add-book.spec.ts:193:9 › Add Book Page › Successful Form Submission › should redirect to book detail page after successful submission (0ms)
+(node:97621) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97621) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  179 [chromium] › tests/add-book.spec.ts:193:9 › Add Book Page › Successful Form Submission › should redirect to book detail page after successful submission (retry #1) (0ms)
+(node:97639) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97639) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  180 [chromium] › tests/add-book.spec.ts:193:9 › Add Book Page › Successful Form Submission › should redirect to book detail page after successful submission (retry #2) (0ms)
+(node:97658) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97658) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  181 [chromium] › tests/add-book.spec.ts:203:9 › Add Book Page › Successful Form Submission › should display loading state during submission (1ms)
+(node:97669) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97669) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  182 [chromium] › tests/add-book.spec.ts:203:9 › Add Book Page › Successful Form Submission › should display loading state during submission (retry #1) (1ms)
+(node:97678) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97678) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  183 [chromium] › tests/add-book.spec.ts:203:9 › Add Book Page › Successful Form Submission › should display loading state during submission (retry #2) (0ms)
+(node:97698) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97698) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  184 [chromium] › tests/add-book.spec.ts:214:9 › Add Book Page › Cancel Button › should navigate to home when clicking cancel (0ms)
+(node:97709) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97709) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  185 [chromium] › tests/add-book.spec.ts:214:9 › Add Book Page › Cancel Button › should navigate to home when clicking cancel (retry #1) (0ms)
+(node:97726) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97726) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  186 [chromium] › tests/add-book.spec.ts:214:9 › Add Book Page › Cancel Button › should navigate to home when clicking cancel (retry #2) (1ms)
+(node:97737) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97737) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  187 [chromium] › tests/add-book.spec.ts:219:9 › Add Book Page › Cancel Button › should not save data when canceling (0ms)
+(node:97754) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97754) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  188 [chromium] › tests/add-book.spec.ts:219:9 › Add Book Page › Cancel Button › should not save data when canceling (retry #1) (0ms)
+(node:97767) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97767) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  189 [chromium] › tests/add-book.spec.ts:219:9 › Add Book Page › Cancel Button › should not save data when canceling (retry #2) (0ms)
+(node:97788) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97788) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  190 [chromium] › tests/add-book.spec.ts:231:9 › Add Book Page › Form Accessibility › should have associated labels for all inputs (0ms)
+(node:97801) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97801) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  191 [chromium] › tests/add-book.spec.ts:231:9 › Add Book Page › Form Accessibility › should have associated labels for all inputs (retry #1) (0ms)
+(node:97810) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97810) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  192 [chromium] › tests/add-book.spec.ts:231:9 › Add Book Page › Form Accessibility › should have associated labels for all inputs (retry #2) (0ms)
+(node:97820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  193 [chromium] › tests/add-book.spec.ts:239:9 › Add Book Page › Form Accessibility › should indicate required fields visually with asterisk (0ms)
+(node:97836) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97836) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  194 [chromium] › tests/add-book.spec.ts:239:9 › Add Book Page › Form Accessibility › should indicate required fields visually with asterisk (retry #1) (0ms)
+(node:97854) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97854) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  195 [chromium] › tests/add-book.spec.ts:239:9 › Add Book Page › Form Accessibility › should indicate required fields visually with asterisk (retry #2) (0ms)
+(node:97868) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97868) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  196 [chromium] › tests/add-book.spec.ts:244:9 › Add Book Page › Form Accessibility › should be navigable by keyboard (0ms)
+(node:97878) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97878) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  197 [chromium] › tests/add-book.spec.ts:244:9 › Add Book Page › Form Accessibility › should be navigable by keyboard (retry #1) (0ms)
+(node:97890) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97890) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  198 [chromium] › tests/add-book.spec.ts:244:9 › Add Book Page › Form Accessibility › should be navigable by keyboard (retry #2) (0ms)
+(node:97907) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97907) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  199 [chromium] › tests/add-book.spec.ts:254:9 › Add Book Page › Edge Cases › should handle very long title input (0ms)
+(node:97922) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97922) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  200 [chromium] › tests/add-book.spec.ts:254:9 › Add Book Page › Edge Cases › should handle very long title input (retry #1) (0ms)
+(node:97934) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97934) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  201 [chromium] › tests/add-book.spec.ts:254:9 › Add Book Page › Edge Cases › should handle very long title input (retry #2) (0ms)
+(node:97943) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97943) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  202 [chromium] › tests/add-book.spec.ts:263:9 › Add Book Page › Edge Cases › should handle special characters in title (0ms)
+(node:97965) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97965) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  203 [chromium] › tests/add-book.spec.ts:263:9 › Add Book Page › Edge Cases › should handle special characters in title (retry #1) (0ms)
+(node:97982) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97982) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  204 [chromium] › tests/add-book.spec.ts:263:9 › Add Book Page › Edge Cases › should handle special characters in title (retry #2) (0ms)
+(node:97995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:97995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  205 [chromium] › tests/add-book.spec.ts:271:9 › Add Book Page › Edge Cases › should handle unicode characters (0ms)
+(node:98003) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98003) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  206 [chromium] › tests/add-book.spec.ts:271:9 › Add Book Page › Edge Cases › should handle unicode characters (retry #1) (1ms)
+(node:98020) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98020) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  207 [chromium] › tests/add-book.spec.ts:271:9 › Add Book Page › Edge Cases › should handle unicode characters (retry #2) (0ms)
+(node:98037) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98037) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  208 [chromium] › tests/add-book.spec.ts:279:9 › Add Book Page › Edge Cases › should handle minimum valid year (0ms)
+(node:98047) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98047) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  209 [chromium] › tests/add-book.spec.ts:279:9 › Add Book Page › Edge Cases › should handle minimum valid year (retry #1) (0ms)
+(node:98059) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98059) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  210 [chromium] › tests/add-book.spec.ts:279:9 › Add Book Page › Edge Cases › should handle minimum valid year (retry #2) (1ms)
+(node:98071) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98071) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  211 [chromium] › tests/add-book.spec.ts:291:7 › Add Book - Complete User Journey › should add a book and verify it appears in the library (0ms)
+(node:98083) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98083) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  212 [chromium] › tests/add-book.spec.ts:291:7 › Add Book - Complete User Journey › should add a book and verify it appears in the library (retry #1) (0ms)
+(node:98098) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98098) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  213 [chromium] › tests/add-book.spec.ts:291:7 › Add Book - Complete User Journey › should add a book and verify it appears in the library (retry #2) (0ms)
+(node:98112) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98112) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  214 [chromium] › tests/api.spec.ts:5:9 › API Endpoints › GET /api/books › should return a list of books (605ms)
+  ✓  215 [chromium] › tests/api.spec.ts:14:9 › API Endpoints › GET /api/books › should return books with correct structure (366ms)
+  ✓  216 [chromium] › tests/api.spec.ts:30:9 › API Endpoints › GET /api/books › should return correct data types for book properties (336ms)
+  ✓  217 [chromium] › tests/api.spec.ts:46:9 › API Endpoints › GET /api/books › should return JSON content type (338ms)
+  ✓  218 [chromium] › tests/api.spec.ts:52:9 › API Endpoints › GET /api/books › should include "The Great Gatsby" in initial books (336ms)
+  ✓  219 [chromium] › tests/api.spec.ts:63:9 › API Endpoints › GET /api/books/[id] › should return a single book by ID (1.0s)
+  ✓  220 [chromium] › tests/api.spec.ts:72:9 › API Endpoints › GET /api/books/[id] › should return 404 for non-existent book (397ms)
+  ✓  221 [chromium] › tests/api.spec.ts:80:9 › API Endpoints › GET /api/books/[id] › should return correct book for each ID (1.9s)
+  ✓  222 [chromium] › tests/api.spec.ts:97:9 › API Endpoints › GET /api/books/[id] › should return complete book details (391ms)
+  ✓  223 [chromium] › tests/api.spec.ts:111:9 › API Endpoints › POST /api/books › should create a new book with required fields (436ms)
+  ✓  224 [chromium] › tests/api.spec.ts:128:9 › API Endpoints › POST /api/books › should create a book with all fields (452ms)
+  ✓  225 [chromium] › tests/api.spec.ts:154:9 › API Endpoints › POST /api/books › should return 400 when title is missing (233ms)
+  ✓  226 [chromium] › tests/api.spec.ts:166:9 › API Endpoints › POST /api/books › should return 400 when author is missing (235ms)
+  ✓  227 [chromium] › tests/api.spec.ts:178:9 › API Endpoints › POST /api/books › should return 400 when both title and author are missing (235ms)
+  ✓  228 [chromium] › tests/api.spec.ts:188:9 › API Endpoints › POST /api/books › should return 400 for invalid JSON (231ms)
+  ✓  229 [chromium] › tests/api.spec.ts:199:9 › API Endpoints › POST /api/books › should assign default values for optional fields (435ms)
+  ✓  230 [chromium] › tests/api.spec.ts:215:9 › API Endpoints › POST /api/books › should auto-increment book ID (873ms)
+  ✓  231 [chromium] › tests/api.spec.ts:229:9 › API Endpoints › POST /api/books › newly created book should be retrievable (838ms)
+  ✓  232 [chromium] › tests/api.spec.ts:244:9 › API Endpoints › POST /api/books › newly created book should appear in books list (767ms)
+  ✓  233 [chromium] › tests/api.spec.ts:261:9 › API Endpoints › API Edge Cases › should handle empty title string (236ms)
+  ✓  234 [chromium] › tests/api.spec.ts:272:9 › API Endpoints › API Edge Cases › should handle empty author string (231ms)
+  ✓  235 [chromium] › tests/api.spec.ts:283:9 › API Endpoints › API Edge Cases › should handle special characters in title (433ms)
+  ✓  236 [chromium] › tests/api.spec.ts:296:9 › API Endpoints › API Edge Cases › should handle unicode characters (437ms)
+  ✓  237 [chromium] › tests/api.spec.ts:309:9 › API Endpoints › API Edge Cases › should handle very long strings (443ms)
+  ✓  238 [chromium] › tests/api.spec.ts:321:9 › API Endpoints › API Edge Cases › should handle rating at boundaries (442ms)
+  ✓  239 [chromium] › tests/api.spec.ts:335:9 › API Endpoints › API Edge Cases › should handle negative rating gracefully (442ms)
+  ✘  240 [chromium] › tests/book-detail.spec.ts:5:9 › Book Detail Page › Loading State › should display loading state when navigating to book detail (0ms)
+(node:98273) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98273) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  241 [chromium] › tests/book-detail.spec.ts:5:9 › Book Detail Page › Loading State › should display loading state when navigating to book detail (retry #1) (0ms)
+(node:98295) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98295) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  242 [chromium] › tests/book-detail.spec.ts:5:9 › Book Detail Page › Loading State › should display loading state when navigating to book detail (retry #2) (0ms)
+(node:98310) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98310) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  243 [chromium] › tests/book-detail.spec.ts:18:9 › Book Detail Page › Book Information Display › should display book title (0ms)
+(node:98324) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98324) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  244 [chromium] › tests/book-detail.spec.ts:18:9 › Book Detail Page › Book Information Display › should display book title (retry #1) (0ms)
+(node:98341) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98341) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  245 [chromium] › tests/book-detail.spec.ts:18:9 › Book Detail Page › Book Information Display › should display book title (retry #2) (0ms)
+(node:98365) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98365) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  246 [chromium] › tests/book-detail.spec.ts:22:9 › Book Detail Page › Book Information Display › should display book author (0ms)
+(node:98379) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98379) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  247 [chromium] › tests/book-detail.spec.ts:22:9 › Book Detail Page › Book Information Display › should display book author (retry #1) (0ms)
+(node:98391) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98391) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  248 [chromium] › tests/book-detail.spec.ts:22:9 › Book Detail Page › Book Information Display › should display book author (retry #2) (1ms)
+(node:98403) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98403) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  249 [chromium] › tests/book-detail.spec.ts:26:9 › Book Detail Page › Book Information Display › should display book rating with star (1ms)
+(node:98419) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98419) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  250 [chromium] › tests/book-detail.spec.ts:26:9 › Book Detail Page › Book Information Display › should display book rating with star (retry #1) (0ms)
+(node:98438) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98438) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  251 [chromium] › tests/book-detail.spec.ts:26:9 › Book Detail Page › Book Information Display › should display book rating with star (retry #2) (0ms)
+(node:98456) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98456) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  252 [chromium] › tests/book-detail.spec.ts:31:9 › Book Detail Page › Book Information Display › should display genre information (0ms)
+(node:98467) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98467) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  253 [chromium] › tests/book-detail.spec.ts:31:9 › Book Detail Page › Book Information Display › should display genre information (retry #1) (0ms)
+(node:98483) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98483) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  254 [chromium] › tests/book-detail.spec.ts:31:9 › Book Detail Page › Book Information Display › should display genre information (retry #2) (0ms)
+(node:98496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98496) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  255 [chromium] › tests/book-detail.spec.ts:36:9 › Book Detail Page › Book Information Display › should display published year (0ms)
+(node:98511) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98511) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  256 [chromium] › tests/book-detail.spec.ts:36:9 › Book Detail Page › Book Information Display › should display published year (retry #1) (0ms)
+(node:98532) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98532) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  257 [chromium] › tests/book-detail.spec.ts:36:9 › Book Detail Page › Book Information Display › should display published year (retry #2) (0ms)
+(node:98543) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98543) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  258 [chromium] › tests/book-detail.spec.ts:41:9 › Book Detail Page › Book Information Display › should display page count (0ms)
+(node:98562) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98562) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  259 [chromium] › tests/book-detail.spec.ts:41:9 › Book Detail Page › Book Information Display › should display page count (retry #1) (0ms)
+(node:98578) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98578) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  260 [chromium] › tests/book-detail.spec.ts:41:9 › Book Detail Page › Book Information Display › should display page count (retry #2) (0ms)
+(node:98597) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98597) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  261 [chromium] › tests/book-detail.spec.ts:45:9 › Book Detail Page › Book Information Display › should display ISBN (0ms)
+(node:98619) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98619) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  262 [chromium] › tests/book-detail.spec.ts:45:9 › Book Detail Page › Book Information Display › should display ISBN (retry #1) (0ms)
+(node:98634) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98634) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  263 [chromium] › tests/book-detail.spec.ts:45:9 › Book Detail Page › Book Information Display › should display ISBN (retry #2) (0ms)
+(node:98643) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98643) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  264 [chromium] › tests/book-detail.spec.ts:50:9 › Book Detail Page › Book Information Display › should display book description (1ms)
+(node:98650) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98650) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  265 [chromium] › tests/book-detail.spec.ts:50:9 › Book Detail Page › Book Information Display › should display book description (retry #1) (0ms)
+(node:98666) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98666) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  266 [chromium] › tests/book-detail.spec.ts:50:9 › Book Detail Page › Book Information Display › should display book description (retry #2) (0ms)
+(node:98683) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98683) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  267 [chromium] › tests/book-detail.spec.ts:55:9 › Book Detail Page › Book Information Display › should display star rating visualization (0ms)
+(node:98695) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98695) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  268 [chromium] › tests/book-detail.spec.ts:55:9 › Book Detail Page › Book Information Display › should display star rating visualization (retry #1) (0ms)
+(node:98708) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98708) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  269 [chromium] › tests/book-detail.spec.ts:55:9 › Book Detail Page › Book Information Display › should display star rating visualization (retry #2) (1ms)
+(node:98724) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98724) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  270 [chromium] › tests/book-detail.spec.ts:67:9 › Book Detail Page › Navigation Links › should display "Back to Library" link at top (0ms)
+(node:98738) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98738) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  271 [chromium] › tests/book-detail.spec.ts:67:9 › Book Detail Page › Navigation Links › should display "Back to Library" link at top (retry #1) (2ms)
+(node:98758) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98758) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  272 [chromium] › tests/book-detail.spec.ts:67:9 › Book Detail Page › Navigation Links › should display "Back to Library" link at top (retry #2) (0ms)
+(node:98772) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98772) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  273 [chromium] › tests/book-detail.spec.ts:72:9 › Book Detail Page › Navigation Links › should navigate back to home when clicking "Back to Library" at top (0ms)
+(node:98789) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98789) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  274 [chromium] › tests/book-detail.spec.ts:72:9 › Book Detail Page › Navigation Links › should navigate back to home when clicking "Back to Library" at top (retry #1) (1ms)
+(node:98802) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98802) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  275 [chromium] › tests/book-detail.spec.ts:72:9 › Book Detail Page › Navigation Links › should navigate back to home when clicking "Back to Library" at top (retry #2) (0ms)
+(node:98817) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98817) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  276 [chromium] › tests/book-detail.spec.ts:77:9 › Book Detail Page › Navigation Links › should display "Back to Library" button at bottom (1ms)
+(node:98828) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98828) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  277 [chromium] › tests/book-detail.spec.ts:77:9 › Book Detail Page › Navigation Links › should display "Back to Library" button at bottom (retry #1) (0ms)
+(node:98837) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98837) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  278 [chromium] › tests/book-detail.spec.ts:77:9 › Book Detail Page › Navigation Links › should display "Back to Library" button at bottom (retry #2) (0ms)
+(node:99208) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99208) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  279 [chromium] › tests/book-detail.spec.ts:82:9 › Book Detail Page › Navigation Links › should display "Add Another Book" button (0ms)
+(node:99260) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99260) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  280 [chromium] › tests/book-detail.spec.ts:82:9 › Book Detail Page › Navigation Links › should display "Add Another Book" button (retry #1) (1ms)
+(node:99281) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99281) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  281 [chromium] › tests/book-detail.spec.ts:82:9 › Book Detail Page › Navigation Links › should display "Add Another Book" button (retry #2) (1ms)
+(node:99301) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99301) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  282 [chromium] › tests/book-detail.spec.ts:86:9 › Book Detail Page › Navigation Links › should navigate to add book page when clicking "Add Another Book" (0ms)
+(node:99311) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99311) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  283 [chromium] › tests/book-detail.spec.ts:86:9 › Book Detail Page › Navigation Links › should navigate to add book page when clicking "Add Another Book" (retry #1) (0ms)
+(node:99323) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99323) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  284 [chromium] › tests/book-detail.spec.ts:86:9 › Book Detail Page › Navigation Links › should navigate to add book page when clicking "Add Another Book" (retry #2) (0ms)
+(node:99337) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99337) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  285 [chromium] › tests/book-detail.spec.ts:93:9 › Book Detail Page › Different Books › should display correct details for book ID 2 (0ms)
+(node:99354) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99354) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  286 [chromium] › tests/book-detail.spec.ts:93:9 › Book Detail Page › Different Books › should display correct details for book ID 2 (retry #1) (0ms)
+(node:99362) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99362) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  287 [chromium] › tests/book-detail.spec.ts:93:9 › Book Detail Page › Different Books › should display correct details for book ID 2 (retry #2) (0ms)
+(node:99376) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99376) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  288 [chromium] › tests/book-detail.spec.ts:102:9 › Book Detail Page › Different Books › should display correct details for book ID 3 (0ms)
+(node:99395) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99395) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  289 [chromium] › tests/book-detail.spec.ts:102:9 › Book Detail Page › Different Books › should display correct details for book ID 3 (retry #1) (0ms)
+(node:99407) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99407) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  290 [chromium] › tests/book-detail.spec.ts:102:9 › Book Detail Page › Different Books › should display correct details for book ID 3 (retry #2) (0ms)
+(node:99421) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99421) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  291 [chromium] › tests/book-detail.spec.ts:111:9 › Book Detail Page › Different Books › should display correct details for book ID 5 (0ms)
+(node:99435) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99435) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  292 [chromium] › tests/book-detail.spec.ts:111:9 › Book Detail Page › Different Books › should display correct details for book ID 5 (retry #1) (0ms)
+(node:99449) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99449) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  293 [chromium] › tests/book-detail.spec.ts:111:9 › Book Detail Page › Different Books › should display correct details for book ID 5 (retry #2) (0ms)
+(node:99463) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99463) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  294 [chromium] › tests/book-detail.spec.ts:122:9 › Book Detail Page › Complete User Flow › should complete navigation from home to book detail and back (0ms)
+(node:99476) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99476) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  295 [chromium] › tests/book-detail.spec.ts:122:9 › Book Detail Page › Complete User Flow › should complete navigation from home to book detail and back (retry #1) (1ms)
+(node:99490) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99490) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  296 [chromium] › tests/book-detail.spec.ts:122:9 › Book Detail Page › Complete User Flow › should complete navigation from home to book detail and back (retry #2) (0ms)
+(node:99505) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99505) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  297 [chromium] › tests/book-detail.spec.ts:139:9 › Book Detail Page › Layout and Styling › should have proper page structure (0ms)
+(node:99589) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99589) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  298 [chromium] › tests/book-detail.spec.ts:139:9 › Book Detail Page › Layout and Styling › should have proper page structure (retry #1) (0ms)
+(node:99603) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99603) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  299 [chromium] › tests/book-detail.spec.ts:139:9 › Book Detail Page › Layout and Styling › should have proper page structure (retry #2) (0ms)
+(node:99616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  300 [chromium] › tests/book-detail.spec.ts:147:9 › Book Detail Page › Layout and Styling › should display book info in grid layout (0ms)
+(node:99631) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99631) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  301 [chromium] › tests/book-detail.spec.ts:147:9 › Book Detail Page › Layout and Styling › should display book info in grid layout (retry #1) (0ms)
+(node:99645) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99645) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  302 [chromium] › tests/book-detail.spec.ts:147:9 › Book Detail Page › Layout and Styling › should display book info in grid layout (retry #2) (0ms)
+(node:99657) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99657) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  303 [chromium] › tests/book-detail.spec.ts:157:9 › Book Detail Page › Accessibility › should have proper heading structure (0ms)
+(node:99674) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99674) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  304 [chromium] › tests/book-detail.spec.ts:157:9 › Book Detail Page › Accessibility › should have proper heading structure (retry #1) (0ms)
+(node:99683) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99683) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  305 [chromium] › tests/book-detail.spec.ts:157:9 › Book Detail Page › Accessibility › should have proper heading structure (retry #2) (1ms)
+(node:99696) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99696) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  306 [chromium] › tests/book-detail.spec.ts:165:9 › Book Detail Page › Accessibility › should have accessible back navigation links (0ms)
+(node:99710) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99710) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  307 [chromium] › tests/book-detail.spec.ts:165:9 › Book Detail Page › Accessibility › should have accessible back navigation links (retry #1) (0ms)
+(node:99725) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99725) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  308 [chromium] › tests/book-detail.spec.ts:165:9 › Book Detail Page › Accessibility › should have accessible back navigation links (retry #2) (0ms)
+(node:99735) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99735) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  309 [chromium] › tests/error-scenarios.spec.ts:5:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should display error message for non-existent book ID (0ms)
+(node:99747) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99747) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  310 [chromium] › tests/error-scenarios.spec.ts:5:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should display error message for non-existent book ID (retry #1) (0ms)
+(node:99760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  311 [chromium] › tests/error-scenarios.spec.ts:5:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should display error message for non-existent book ID (retry #2) (0ms)
+(node:99773) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99773) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  312 [chromium] › tests/error-scenarios.spec.ts:12:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should display back to library link on error page (1ms)
+(node:99790) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99790) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  313 [chromium] › tests/error-scenarios.spec.ts:12:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should display back to library link on error page (retry #1) (0ms)
+(node:99805) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99805) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  314 [chromium] › tests/error-scenarios.spec.ts:12:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should display back to library link on error page (retry #2) (0ms)
+(node:99820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  315 [chromium] › tests/error-scenarios.spec.ts:18:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should navigate back to home from error page (0ms)
+(node:99838) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99838) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  316 [chromium] › tests/error-scenarios.spec.ts:18:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should navigate back to home from error page (retry #1) (0ms)
+(node:99846) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99846) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  317 [chromium] › tests/error-scenarios.spec.ts:18:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should navigate back to home from error page (retry #2) (1ms)
+(node:99863) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99863) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  318 [chromium] › tests/error-scenarios.spec.ts:25:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should handle invalid book ID format gracefully (0ms)
+(node:99872) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99872) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  319 [chromium] › tests/error-scenarios.spec.ts:25:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should handle invalid book ID format gracefully (retry #1) (0ms)
+(node:99883) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99883) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  320 [chromium] › tests/error-scenarios.spec.ts:25:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should handle invalid book ID format gracefully (retry #2) (0ms)
+(node:99902) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99902) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  321 [chromium] › tests/error-scenarios.spec.ts:31:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should handle negative book ID (0ms)
+(node:99918) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99918) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  322 [chromium] › tests/error-scenarios.spec.ts:31:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should handle negative book ID (retry #1) (0ms)
+(node:99934) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99934) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  323 [chromium] › tests/error-scenarios.spec.ts:31:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should handle negative book ID (retry #2) (0ms)
+(node:99942) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99942) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  324 [chromium] › tests/error-scenarios.spec.ts:37:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should handle zero as book ID (0ms)
+(node:99952) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99952) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  325 [chromium] › tests/error-scenarios.spec.ts:37:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should handle zero as book ID (retry #1) (0ms)
+(node:99975) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99975) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  326 [chromium] › tests/error-scenarios.spec.ts:37:9 › Error Scenarios and Edge Cases › 404 - Book Not Found › should handle zero as book ID (retry #2) (0ms)
+(node:99996) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:99996) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  327 [chromium] › tests/error-scenarios.spec.ts:45:9 › Error Scenarios and Edge Cases › API Error Handling - Books List › should handle network failure gracefully on home page (0ms)
+(node:112) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:112) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  328 [chromium] › tests/error-scenarios.spec.ts:45:9 › Error Scenarios and Edge Cases › API Error Handling - Books List › should handle network failure gracefully on home page (retry #1) (0ms)
+(node:126) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:126) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  329 [chromium] › tests/error-scenarios.spec.ts:45:9 › Error Scenarios and Edge Cases › API Error Handling - Books List › should handle network failure gracefully on home page (retry #2) (0ms)
+(node:142) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:142) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  330 [chromium] › tests/error-scenarios.spec.ts:54:9 › Error Scenarios and Edge Cases › API Error Handling - Books List › should allow retry on home page after error (0ms)
+(node:153) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:153) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  331 [chromium] › tests/error-scenarios.spec.ts:54:9 › Error Scenarios and Edge Cases › API Error Handling - Books List › should allow retry on home page after error (retry #1) (0ms)
+(node:163) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:163) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  332 [chromium] › tests/error-scenarios.spec.ts:54:9 › Error Scenarios and Edge Cases › API Error Handling - Books List › should allow retry on home page after error (retry #2) (0ms)
+(node:181) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:181) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  333 [chromium] › tests/error-scenarios.spec.ts:72:9 › Error Scenarios and Edge Cases › API Error Handling - Books List › should handle 500 server error on home page (0ms)
+(node:194) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:194) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  334 [chromium] › tests/error-scenarios.spec.ts:72:9 › Error Scenarios and Edge Cases › API Error Handling - Books List › should handle 500 server error on home page (retry #1) (0ms)
+(node:203) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:203) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  335 [chromium] › tests/error-scenarios.spec.ts:72:9 › Error Scenarios and Edge Cases › API Error Handling - Books List › should handle 500 server error on home page (retry #2) (0ms)
+(node:211) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:211) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  336 [chromium] › tests/error-scenarios.spec.ts:87:9 › Error Scenarios and Edge Cases › API Error Handling - Book Detail › should handle network failure on book detail page (0ms)
+(node:227) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:227) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  337 [chromium] › tests/error-scenarios.spec.ts:87:9 › Error Scenarios and Edge Cases › API Error Handling - Book Detail › should handle network failure on book detail page (retry #1) (0ms)
+(node:240) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:240) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  338 [chromium] › tests/error-scenarios.spec.ts:87:9 › Error Scenarios and Edge Cases › API Error Handling - Book Detail › should handle network failure on book detail page (retry #2) (0ms)
+(node:255) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:255) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  339 [chromium] › tests/error-scenarios.spec.ts:95:9 › Error Scenarios and Edge Cases › API Error Handling - Book Detail › should handle 500 error on book detail page (0ms)
+(node:269) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:269) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  340 [chromium] › tests/error-scenarios.spec.ts:95:9 › Error Scenarios and Edge Cases › API Error Handling - Book Detail › should handle 500 error on book detail page (retry #1) (0ms)
+(node:282) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:282) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  341 [chromium] › tests/error-scenarios.spec.ts:95:9 › Error Scenarios and Edge Cases › API Error Handling - Book Detail › should handle 500 error on book detail page (retry #2) (0ms)
+(node:293) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:293) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  342 [chromium] › tests/error-scenarios.spec.ts:110:9 › Error Scenarios and Edge Cases › API Error Handling - Add Book › should display error message when book creation fails (0ms)
+(node:305) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:305) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  343 [chromium] › tests/error-scenarios.spec.ts:110:9 › Error Scenarios and Edge Cases › API Error Handling - Add Book › should display error message when book creation fails (retry #1) (0ms)
+(node:320) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:320) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  344 [chromium] › tests/error-scenarios.spec.ts:110:9 › Error Scenarios and Edge Cases › API Error Handling - Add Book › should display error message when book creation fails (retry #2) (0ms)
+(node:330) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:330) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  345 [chromium] › tests/error-scenarios.spec.ts:131:9 › Error Scenarios and Edge Cases › API Error Handling - Add Book › should display validation error from API (0ms)
+(node:343) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:343) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  346 [chromium] › tests/error-scenarios.spec.ts:131:9 › Error Scenarios and Edge Cases › API Error Handling - Add Book › should display validation error from API (retry #1) (0ms)
+(node:359) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:359) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  347 [chromium] › tests/error-scenarios.spec.ts:131:9 › Error Scenarios and Edge Cases › API Error Handling - Add Book › should display validation error from API (retry #2) (0ms)
+(node:373) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:373) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  348 [chromium] › tests/error-scenarios.spec.ts:152:9 › Error Scenarios and Edge Cases › API Error Handling - Add Book › should handle network failure during book creation (1ms)
+(node:381) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:381) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  349 [chromium] › tests/error-scenarios.spec.ts:152:9 › Error Scenarios and Edge Cases › API Error Handling - Add Book › should handle network failure during book creation (retry #1) (0ms)
+(node:397) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:397) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  350 [chromium] › tests/error-scenarios.spec.ts:152:9 › Error Scenarios and Edge Cases › API Error Handling - Add Book › should handle network failure during book creation (retry #2) (0ms)
+(node:409) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:409) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  351 [chromium] › tests/error-scenarios.spec.ts:169:9 › Error Scenarios and Edge Cases › API Error Handling - Add Book › should handle 500 server error during book creation (0ms)
+(node:422) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:422) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  352 [chromium] › tests/error-scenarios.spec.ts:169:9 › Error Scenarios and Edge Cases › API Error Handling - Add Book › should handle 500 server error during book creation (retry #1) (0ms)
+(node:435) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:435) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  353 [chromium] › tests/error-scenarios.spec.ts:169:9 › Error Scenarios and Edge Cases › API Error Handling - Add Book › should handle 500 server error during book creation (retry #2) (0ms)
+(node:449) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:449) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  354 [chromium] › tests/error-scenarios.spec.ts:192:9 › Error Scenarios and Edge Cases › Edge Cases - URL Handling › should handle trailing slash in URL (0ms)
+(node:462) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:462) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  355 [chromium] › tests/error-scenarios.spec.ts:192:9 › Error Scenarios and Edge Cases › Edge Cases - URL Handling › should handle trailing slash in URL (retry #1) (0ms)
+(node:481) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:481) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  356 [chromium] › tests/error-scenarios.spec.ts:192:9 › Error Scenarios and Edge Cases › Edge Cases - URL Handling › should handle trailing slash in URL (retry #2) (0ms)
+(node:489) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:489) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  357 [chromium] › tests/error-scenarios.spec.ts:197:9 › Error Scenarios and Edge Cases › Edge Cases - URL Handling › should handle book ID with leading zeros (0ms)
+(node:503) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:503) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  358 [chromium] › tests/error-scenarios.spec.ts:197:9 › Error Scenarios and Edge Cases › Edge Cases - URL Handling › should handle book ID with leading zeros (retry #1) (1ms)
+(node:525) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:525) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  359 [chromium] › tests/error-scenarios.spec.ts:197:9 › Error Scenarios and Edge Cases › Edge Cases - URL Handling › should handle book ID with leading zeros (retry #2) (0ms)
+(node:537) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:537) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  360 [chromium] › tests/error-scenarios.spec.ts:204:9 › Error Scenarios and Edge Cases › Edge Cases - Empty State › should display empty state message when no books exist (0ms)
+(node:589) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:589) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  361 [chromium] › tests/error-scenarios.spec.ts:204:9 › Error Scenarios and Edge Cases › Edge Cases - Empty State › should display empty state message when no books exist (retry #1) (0ms)
+(node:616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  362 [chromium] › tests/error-scenarios.spec.ts:204:9 › Error Scenarios and Edge Cases › Edge Cases - Empty State › should display empty state message when no books exist (retry #2) (0ms)
+(node:637) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:637) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  363 [chromium] › tests/error-scenarios.spec.ts:219:9 › Error Scenarios and Edge Cases › Edge Cases - Empty State › should display book emoji in empty state (0ms)
+(node:658) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:658) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  364 [chromium] › tests/error-scenarios.spec.ts:219:9 › Error Scenarios and Edge Cases › Edge Cases - Empty State › should display book emoji in empty state (retry #1) (0ms)
+(node:679) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:679) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  365 [chromium] › tests/error-scenarios.spec.ts:219:9 › Error Scenarios and Edge Cases › Edge Cases - Empty State › should display book emoji in empty state (retry #2) (0ms)
+(node:696) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:696) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  366 [chromium] › tests/error-scenarios.spec.ts:235:9 › Error Scenarios and Edge Cases › Slow Network Simulation › should handle slow API response on home page (0ms)
+(node:717) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:717) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  367 [chromium] › tests/error-scenarios.spec.ts:235:9 › Error Scenarios and Edge Cases › Slow Network Simulation › should handle slow API response on home page (retry #1) (0ms)
+(node:733) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:733) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  368 [chromium] › tests/error-scenarios.spec.ts:235:9 › Error Scenarios and Edge Cases › Slow Network Simulation › should handle slow API response on home page (retry #2) (0ms)
+(node:747) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:747) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  369 [chromium] › tests/error-scenarios.spec.ts:247:9 › Error Scenarios and Edge Cases › Slow Network Simulation › should handle slow API response on book detail page (0ms)
+(node:765) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:765) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  370 [chromium] › tests/error-scenarios.spec.ts:247:9 › Error Scenarios and Edge Cases › Slow Network Simulation › should handle slow API response on book detail page (retry #1) (0ms)
+(node:777) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:777) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  371 [chromium] › tests/error-scenarios.spec.ts:247:9 › Error Scenarios and Edge Cases › Slow Network Simulation › should handle slow API response on book detail page (retry #2) (0ms)
+(node:786) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:786) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  372 [chromium] › tests/error-scenarios.spec.ts:261:9 › Error Scenarios and Edge Cases › Browser Navigation › should handle browser back button correctly (0ms)
+(node:799) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:799) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  373 [chromium] › tests/error-scenarios.spec.ts:261:9 › Error Scenarios and Edge Cases › Browser Navigation › should handle browser back button correctly (retry #1) (0ms)
+(node:820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  374 [chromium] › tests/error-scenarios.spec.ts:261:9 › Error Scenarios and Edge Cases › Browser Navigation › should handle browser back button correctly (retry #2) (0ms)
+(node:829) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:829) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  375 [chromium] › tests/error-scenarios.spec.ts:272:9 › Error Scenarios and Edge Cases › Browser Navigation › should handle browser forward button correctly (0ms)
+(node:840) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:840) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  376 [chromium] › tests/error-scenarios.spec.ts:272:9 › Error Scenarios and Edge Cases › Browser Navigation › should handle browser forward button correctly (retry #1) (0ms)
+(node:853) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:853) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  377 [chromium] › tests/error-scenarios.spec.ts:272:9 › Error Scenarios and Edge Cases › Browser Navigation › should handle browser forward button correctly (retry #2) (0ms)
+(node:862) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:862) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  378 [chromium] › tests/error-scenarios.spec.ts:283:9 › Error Scenarios and Edge Cases › Browser Navigation › should handle page refresh on book detail (0ms)
+(node:875) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:875) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  379 [chromium] › tests/error-scenarios.spec.ts:283:9 › Error Scenarios and Edge Cases › Browser Navigation › should handle page refresh on book detail (retry #1) (0ms)
+(node:888) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:888) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  380 [chromium] › tests/error-scenarios.spec.ts:283:9 › Error Scenarios and Edge Cases › Browser Navigation › should handle page refresh on book detail (retry #2) (0ms)
+(node:910) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:910) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  381 [chromium] › tests/error-scenarios.spec.ts:292:9 › Error Scenarios and Edge Cases › Browser Navigation › should handle page refresh on add book form (0ms)
+(node:923) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:923) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  382 [chromium] › tests/error-scenarios.spec.ts:292:9 › Error Scenarios and Edge Cases › Browser Navigation › should handle page refresh on add book form (retry #1) (0ms)
+(node:934) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:934) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  383 [chromium] › tests/error-scenarios.spec.ts:292:9 › Error Scenarios and Edge Cases › Browser Navigation › should handle page refresh on add book form (retry #2) (0ms)
+(node:947) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:947) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  384 [chromium] › tests/error-scenarios.spec.ts:303:9 › Error Scenarios and Edge Cases › Concurrent Operations › should handle rapid navigation between pages (0ms)
+(node:978) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:978) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  385 [chromium] › tests/error-scenarios.spec.ts:303:9 › Error Scenarios and Edge Cases › Concurrent Operations › should handle rapid navigation between pages (retry #1) (0ms)
+(node:1000) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1000) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  386 [chromium] › tests/error-scenarios.spec.ts:303:9 › Error Scenarios and Edge Cases › Concurrent Operations › should handle rapid navigation between pages (retry #2) (0ms)
+(node:1015) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1015) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  387 [chromium] › tests/home.spec.ts:9:9 › Home Page - Book Library › Page Loading › should display loading state initially (0ms)
+(node:1029) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1029) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  388 [chromium] › tests/home.spec.ts:9:9 › Home Page - Book Library › Page Loading › should display loading state initially (retry #1) (0ms)
+(node:1051) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1051) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  389 [chromium] › tests/home.spec.ts:9:9 › Home Page - Book Library › Page Loading › should display loading state initially (retry #2) (0ms)
+(node:1066) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1066) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  390 [chromium] › tests/home.spec.ts:15:9 › Home Page - Book Library › Page Loading › should display page title and subtitle after loading (0ms)
+(node:1080) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1080) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  391 [chromium] › tests/home.spec.ts:15:9 › Home Page - Book Library › Page Loading › should display page title and subtitle after loading (retry #1) (0ms)
+(node:1093) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1093) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  392 [chromium] › tests/home.spec.ts:15:9 › Home Page - Book Library › Page Loading › should display page title and subtitle after loading (retry #2) (0ms)
+(node:1111) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1111) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  393 [chromium] › tests/home.spec.ts:20:9 › Home Page - Book Library › Page Loading › should display "Add New Book" button (0ms)
+(node:1130) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1130) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  394 [chromium] › tests/home.spec.ts:20:9 › Home Page - Book Library › Page Loading › should display "Add New Book" button (retry #1) (0ms)
+(node:1138) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1138) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  395 [chromium] › tests/home.spec.ts:20:9 › Home Page - Book Library › Page Loading › should display "Add New Book" button (retry #2) (0ms)
+(node:1153) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1153) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  396 [chromium] › tests/home.spec.ts:26:9 › Home Page - Book Library › Book List Display › should display a list of books (0ms)
+(node:1177) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1177) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  397 [chromium] › tests/home.spec.ts:26:9 › Home Page - Book Library › Book List Display › should display a list of books (retry #1) (0ms)
+(node:1198) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1198) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  398 [chromium] › tests/home.spec.ts:26:9 › Home Page - Book Library › Book List Display › should display a list of books (retry #2) (0ms)
+(node:1214) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1214) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  399 [chromium] › tests/home.spec.ts:32:9 › Home Page - Book Library › Book List Display › should display book author information (0ms)
+(node:1225) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1225) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  400 [chromium] › tests/home.spec.ts:32:9 › Home Page - Book Library › Book List Display › should display book author information (retry #1) (0ms)
+(node:1247) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1247) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  401 [chromium] › tests/home.spec.ts:32:9 › Home Page - Book Library › Book List Display › should display book author information (retry #2) (0ms)
+(node:1261) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1261) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  402 [chromium] › tests/home.spec.ts:38:9 › Home Page - Book Library › Book List Display › should display book genre badges (0ms)
+(node:1282) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1282) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  403 [chromium] › tests/home.spec.ts:38:9 › Home Page - Book Library › Book List Display › should display book genre badges (retry #1) (0ms)
+(node:1311) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1311) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  404 [chromium] › tests/home.spec.ts:38:9 › Home Page - Book Library › Book List Display › should display book genre badges (retry #2) (0ms)
+(node:1328) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1328) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  405 [chromium] › tests/home.spec.ts:44:9 › Home Page - Book Library › Book List Display › should display book ratings with star emoji (0ms)
+(node:1358) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1358) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  406 [chromium] › tests/home.spec.ts:44:9 › Home Page - Book Library › Book List Display › should display book ratings with star emoji (retry #1) (0ms)
+(node:1376) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1376) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  407 [chromium] › tests/home.spec.ts:44:9 › Home Page - Book Library › Book List Display › should display book ratings with star emoji (retry #2) (0ms)
+(node:1405) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1405) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  408 [chromium] › tests/home.spec.ts:49:9 › Home Page - Book Library › Book List Display › should display book page count (0ms)
+(node:1418) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1418) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  409 [chromium] › tests/home.spec.ts:49:9 › Home Page - Book Library › Book List Display › should display book page count (retry #1) (0ms)

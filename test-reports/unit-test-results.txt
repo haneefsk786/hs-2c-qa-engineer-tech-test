@@ -6,41 +6,17 @@ npm warn Unknown env config "devdir". This will stop working in the next major v
 
  RUN  v3.2.4 /Users/haneefshaik/VScodeProjects/hs-2c-qa-engineer-tech-test
 
- ✓ src/__tests__/validation.test.ts (27 tests) 3ms
- ✓ src/__tests__/types.test.ts (8 tests) 2ms
- ✓ src/__tests__/books-data.test.ts (23 tests) 4ms
- ✓ src/__tests__/components/HomePage.test.tsx (20 tests) 115ms
- ✓ src/__tests__/components/BookDetailPage.test.tsx (20 tests) 118ms
- ✓ src/__tests__/components/AddBookPage.test.tsx (27 tests) 332ms
- ✓ src/__tests__/api-routes.test.ts (18 tests) 1679ms
-⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
-
-Vitest caught 1 unhandled error during the test run.
-This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
-
-⎯⎯⎯⎯ Unhandled Rejection ⎯⎯⎯⎯⎯
-ReferenceError: window is not defined
- ❯ resolveUpdatePriority node_modules/react-dom/cjs/react-dom-client.development.js:944:7
- ❯ requestUpdateLane node_modules/react-dom/cjs/react-dom-client.development.js:14335:11
- ❯ dispatchSetState node_modules/react-dom/cjs/react-dom-client.development.js:6926:14
- ❯ fetchBook src/app/book/[id]/page.tsx:35:7
-     33|       setError(err instanceof Error ? err.message : 'An error occurred…
-     34|     } finally {
-     35|       setLoading(false);
-       |       ^
-     36|     }
-     37|   };
-
-This error originated in "src/__tests__/components/BookDetailPage.test.tsx" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
-This error was caught after test environment was torn down. Make sure to cancel any running tasks before test finishes:
-- cancel timeouts using clearTimeout and clearInterval
-- wait for promises to resolve using the await keyword
-⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-
+Sourcemap for "/Users/haneefshaik/VScodeProjects/hs-2c-qa-engineer-tech-test/node_modules/allure-vitest/dist/setup.js" points to missing source files
+ ✓ src/__tests__/types.test.ts (8 tests) 3ms
+ ✓ src/__tests__/validation.test.ts (27 tests) 5ms
+ ✓ src/__tests__/books-data.test.ts (23 tests) 5ms
+ ✓ src/__tests__/components/HomePage.test.tsx (20 tests) 123ms
+ ✓ src/__tests__/components/BookDetailPage.test.tsx (20 tests) 126ms
+ ✓ src/__tests__/components/AddBookPage.test.tsx (27 tests) 369ms
+ ✓ src/__tests__/api-routes.test.ts (18 tests) 1691ms
 
  Test Files  7 passed (7)
       Tests  143 passed (143)
-     Errors  1 error
-   Start at  23:52:56
-   Duration  2.32s (transform 332ms, setup 304ms, collect 685ms, tests 2.25s, environment 1.96s, prepare 382ms)
+   Start at  01:11:39
+   Duration  2.72s (transform 413ms, setup 785ms, collect 820ms, tests 2.32s, environment 3.35s, prepare 417ms)
 
